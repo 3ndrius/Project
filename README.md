@@ -21,8 +21,8 @@ Environments:
 - App should allow user to add new task (if there is a room for that).
 - App should allow user to remove only done task.
 
-## [demo]()
-![ demo]()
+## [demo](https://brave-goldwasser-9b244a.netlify.app/)
+![ screenshoot](https://raw.githubusercontent.com/3ndrius/Project/master/public/project-saga.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
