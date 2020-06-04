@@ -1,25 +1,28 @@
 
 
-# TODO WITH REACT| REDUX | REDUX-SAGA | JSONPLACEHOLDER
+# TODO 
+WITH REACT| REDUX | REDUX-SAGA | JSONPLACEHOLDER
 Use stack:
 - reactjs - hooks, redux, es6+ async/await, redux-saga
 - html/css - flex, styled-components
 - fetch api
 
-External API:
-- [jsonplaceholder - limit: ?_start=20&_limit=10](https://jsonplaceholder.typicode.com/todos)
+## External API:
+- [jsonplaceholder](https://jsonplaceholder.typicode.com/todos)
+limit: ?_start=20&_limit=10
 
+Environments:
+- Build on ReactJS using Redux.
+- Use redux-saga
 
-Functionality:
-- fetch 10 tasks from api 
-- limit add task to 10
-- user can check completed task
-- can only remove completed tasks
-- 
-
+## Requirements:
+- List should contain max 10 task.
+- App should will allow user to change task status to done.
+- App should allow user to add new task (if there is a room for that).
+- App should allow user to remove only done task.
 
 ## [demo]()
-![forecast](https://github.com/3ndrius/forecast/blob/master/public/screenshoot-forecast.png?raw=true)
+![ demo]()
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -27,7 +30,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
